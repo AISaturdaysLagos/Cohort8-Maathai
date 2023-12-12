@@ -1,10 +1,29 @@
 # Project/ App Title
-[This readme should contain details about you team and project. Please Feel free to modify and expand upon this template to suit the specific needs and details of your group project]
+**Customer Churn Prediction**
 
 ## Project description 
-Write a brief summary about the project here (what problem are you solving , whats your solution) including goals, and key features
+Measuring growth is a crucial aspect for organizations to assess their performance and sustainability. These two dimensions: retaining existing customers and acquiring new ones—are fundamental to understanding the overall health and success of a business.
+Customer Retention (Existing Customers):
+Churn rate  is a key metric to gauge how many customers are leaving over a specific period. A high churn rate might indicate issues with customer satisfaction, product/service quality, or market competition. Organizations should strive to keep their existing customers satisfied to ensure long-term success.
+Customer Acquisition (New Customers):
+Acquiring new customers is essential for expanding the customer base and increasing revenue. Monitoring metrics such as customer acquisition cost (CAC), conversion rates, and the effectiveness of marketing strategies helps organizations understand how efficiently they are bringing in new business.
+
+This project addresses the number-one growth measure. Customer Retention.
+The aim of this project is to develop a model that can predict which customers are likely to churn, based on patterns and concepts derived from the data of those customers that were churned. The organization needs to proactively approach the customers who are likely to churn and provide them with better services to prevent them from leaving
 
 ## Table of Contents
+- Project/ App Title
+- Project description
+- Data Sources
+- Data Exploration
+- Data Cleaning and Preprocessing
+- Feature Engineering/Selection
+- Modeling
+- Training and Validation
+- Result and Performances
+- Model Deployment
+- Requirements.txt
+
 
 ## Getting Started 
 Explain how to get a copy of the project up and running on a local machine for development and testing purposes
