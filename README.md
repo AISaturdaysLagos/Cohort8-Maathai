@@ -39,7 +39,7 @@ Handling Outliers: ordinal and label ecncoder
 
 In Processing we use Data Transformation which involves
 Normalize numerical features to a standard scale (e.g., using Min-Max scaling or Z-score normalization).
-Encode categorical variables into numerical representations suitable for modeling.
+we Encode categorical variables into numerical representations suitable for modeling.
 
 
 ## Training and Validation
