@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 # GitHub raw content URL 
-raw_model_url = "https://raw.githubusercontent.com/Exwhybaba/Customer_Churn/main/model_and_transformers2.sav"
+raw_model_url = "https://raw.githubusercontent.com/AISaturdaysLagos/Cohort8-Maathai/main/model_and_transformers2.sav"
 
 # Download the model file
 response = requests.get(raw_model_url)
@@ -16,7 +16,7 @@ model_content = response.content
 loaded_model, scaler, normalizer = pickle.loads(model_content)
 
 # GitHub raw content URL 
-raw_model_url = "https://raw.githubusercontent.com/Exwhybaba/Customer_Churn/main/model2_and_transformers2.sav"
+raw_model_url = "https://raw.githubusercontent.com/AISaturdaysLagos/Cohort8-Maathai/main/model2_and_transformers2.sav"
 
 # Download the model file
 response = requests.get(raw_model_url)
