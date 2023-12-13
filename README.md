@@ -25,7 +25,11 @@ Acquiring new customers is essential for expanding the customer base and increas
 This project addresses the number-one growth measure. Customer Retention.
 The aim of this project is to develop a model that can predict which customers are likely to churn, based on patterns and concepts derived from the data of those customers that were churned. The organization needs to proactively approach the customers who are likely to churn and provide them with better services to prevent them from leaving
 
-## Modeling
+## Data Source
+To address this issue, we have obtained a dataset from kaggle that contains information about 10,127 customers, including their age, salary, marital status, credit card limit, credit card category, and other related features. 
+
+## Data Exploration
+
 The Random Forest classifier served as the base model for recursive feature elimination to select the best features for our target variable. Subsequently, K-fold validation was introduced to assess various models, and Random Forest emerged as the standout performer with an impressive accuracy of 95% and a low error rate of 0.007766
 
 ## Training and Validation
