@@ -34,9 +34,11 @@ The Random Forest classifier served as the base model for recursive feature elim
 
 ## Data Cleaning and Processing
 In cleaning we encode the uncategorical to Neumerical data the following methods we used in cleaning ;
-- Handling Outliers: ordinal and label ecncoder
+Handling Outliers: ordinal and label ecncoder
+
+
 In Processing we use Data Transformation which involves
-- Normalize numerical features to a standard scale (e.g., using Min-Max scaling or Z-score normalization).
+Normalize numerical features to a standard scale (e.g., using Min-Max scaling or Z-score normalization).
 Encode categorical variables into numerical representations suitable for modeling.
 
 
