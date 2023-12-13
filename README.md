@@ -29,7 +29,18 @@ The aim of this project is to develop a model that can predict which customers a
 The Random Forest classifier served as the base model for recursive feature elimination to select the best features for our target variable. Subsequently, K-fold validation was introduced to assess various models, and Random Forest emerged as the standout performer with an impressive accuracy of 95% and a low error rate of 0.007766
 
 ## Training and Validation
+In the context of our model development, the training process involved utilizing the Random Forest classifier as the base model. During this phase, the algorithm learned patterns and relationships within the provided dataset, with the goal of accurately predicting the target variable.
 
+We introduced K-fold validation to rigorously assess the model's performance. In this process, the dataset was divided into 10 subsets, and the model underwent 10 rounds of training and validation. This allowed us to thoroughly test the model's generalization ability by evaluating its performance on different subsets of the data.
+
+Among the various models tested during validation, the Random Forest classifier stood out, demonstrating an impressive accuracy of 95% and a minimal error rate of 0.007766. This reinforced its effectiveness in making accurate predictions.
+
+## Result and Performances
+In our validation set, we achieved 95%  accuracy using the Random Forest classifier 
+In our training set, we achieved 85% accuracy using the Random Forest classifier and 0.77% accuracy using the Ridge classifier.
+
+## Model Deployment
+The model was deployed using stremlit
 
 ## Getting Started 
 To get the copy of the project up and running on your local machine, follow these processes:
