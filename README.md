@@ -83,7 +83,7 @@ Open your web browser and visit the provided link to interact with the customer 
 List and thank contributors, libraries, or resources that have been used or inspired the project
 
 ## Contact
-Provide contact information for the project maintainers or team members
+The project maintainer can be reached through this contact: 08104695515 and email: seyeoyelayo@gmail.com.
 
 ## Requirements:
 Your project should involve the following components:
