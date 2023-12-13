@@ -32,7 +32,7 @@ To address this issue, we have obtained a dataset from kaggle that contains info
 
 The Random Forest classifier served as the base model for recursive feature elimination to select the best features for our target variable. Subsequently, K-fold validation was introduced to assess various models, and Random Forest emerged as the standout performer with an impressive accuracy of 95% and a low error rate of 0.007766
 
-##Data Cleaning and Processing
+## Data Cleaning and Processing
 In cleaning we encode the uncategorical to Neumerical data the following methods we used in cleaning ;
 - Handling Outliers: ordinal and label ecncoder
 In Processing we use Data Transformation which involves
