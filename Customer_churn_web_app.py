@@ -5,17 +5,26 @@ import pickle
 import pandas as pd
 import numpy as np
 
+# GitHub raw content URL 
+raw_model_url = "https://raw.githubusercontent.com/Exwhybaba/Customer_Churn/main/model_and_transformers2.sav"
 
-model_path1 = r"C:\Users\Administrator\Documents\AIsat\Group_Project\model_and_transformers2.sav"
+# Download the model file
+response = requests.get(raw_model_url)
+model_content = response.content
 
-model_path2 = r"C:\Users\Administrator\Documents\AIsat\Group_Project\model2_and_transformers2.sav"
-# Load the first model and transformers
-with open(model_path1, 'rb') as file:
-    loaded_model, scaler, normalizer = pickle.load(file)
+# Load the model and transformers
+loaded_model, scaler, normalizer = pickle.loads(model_content)
 
-# Load the second model and transformers
-with open(model_path2, 'rb') as file:
-    loaded_model2, scaler2, normalizer2 = pickle.load(file)
+# GitHub raw content URL 
+raw_model_url = "https://raw.githubusercontent.com/Exwhybaba/Customer_Churn/main/model2_and_transformers2.sav"
+
+# Download the model file
+response = requests.get(raw_model_url)
+model_content = response.content
+
+# Load the model and transformers
+loaded_model2, scaler2, normalizer2 = pickle.loads(model_content)
+
 
 # Define global variables with default values
 total_relationship_count = 1
@@ -84,6 +93,7 @@ def hybrid_prediction(trans_ct, dep_count, inactive_months, Contacts_Count, revo
         return prediction1[0]
     else:
         return final_prediction[0]
+
 
 def predict_single_individual():
     st.title('🚀 Single Individual Churn Prediction')
