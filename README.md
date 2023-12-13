@@ -1,3 +1,17 @@
+## Table of Contents
+- Project/ App Title
+- Project description
+- Data Sources
+- Data Exploration
+- Data Cleaning and Preprocessing
+- Feature Engineering/Selection
+- Modeling
+- Training and Validation
+- Result and Performances
+- Model Deployment
+- Requirements.txt
+
+  
 # Project/ App Title
 **Customer Churn Prediction**
 
@@ -11,18 +25,10 @@ Acquiring new customers is essential for expanding the customer base and increas
 This project addresses the number-one growth measure. Customer Retention.
 The aim of this project is to develop a model that can predict which customers are likely to churn, based on patterns and concepts derived from the data of those customers that were churned. The organization needs to proactively approach the customers who are likely to churn and provide them with better services to prevent them from leaving
 
-## Table of Contents
-- Project/ App Title
-- Project description
-- Data Sources
-- Data Exploration
-- Data Cleaning and Preprocessing
-- Feature Engineering/Selection
-- Modeling
-- Training and Validation
-- Result and Performances
-- Model Deployment
-- Requirements.txt
+## Modeling
+The Random Forest classifier served as the base model for recursive feature elimination to select the best features for our target variable. Subsequently, K-fold validation was introduced to assess various models, and Random Forest emerged as the standout performer with an impressive accuracy of 95% and a low error rate of 0.007766
+
+## Training and Validation
 
 
 ## Getting Started 
