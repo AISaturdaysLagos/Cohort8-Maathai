@@ -111,7 +111,9 @@ Once the command is executed, a link to the locally hosted app should be display
 Open your web browser and visit the provided link to interact with the customer churn prediction app.
 
 ## Acknowledgments
+ Receive  heartfelt gratitude to the following individuals whose support and guidance have been invaluable throughout the journey of completing this project:
 
+Foutse Yueghoh - Your mentorship and insightful feedback were instrumental in shaping the direction of this research. Your patience and encouragement sustained ous through the challenges.
 
 ## Contact
 The project maintainer can be reached through this contact: 08104695515 and email: seyeoyelayo@gmail.com.
