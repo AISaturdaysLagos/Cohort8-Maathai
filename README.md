@@ -126,6 +126,12 @@ Your project should involve the following components:
 - **Model Deployment :** Deploy on the web or mobile. You can leverage Google Colab/Streamlit/Huggyface where possible.
 - **Requirements.txt**: A file for all dependecies required
 
+  **Contributors**
+  Oyelayo Seye
+  Jack Oraro
+  Adenike
+  Ayooluwa Jesuniyi
+
 ### Here is the timeline for your group projects:
 - Project Submission Deadline: December 10, 2023
 - Presentation Day: December 16, 2023
